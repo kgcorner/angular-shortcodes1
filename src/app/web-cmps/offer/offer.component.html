@@ -1,0 +1,14 @@
+<div *ngIf="offer">
+    <div class="col">
+        <h4>Offer by : {{offer.store.name}}</h4>
+    </div>
+    <div class="col">
+        <img src="{{offer.thumbnails}}"/>
+    </div>
+    <div class="col">
+        <span> {{offer.title}}</span>
+    </div>
+    <div class="col">
+        <span> Max Offer: {{offer.maxDiscount}}</span>
+    </div>
+</div>
